@@ -11,22 +11,34 @@
   <h1>update css variables with <span class="js-span">JS</span></h1>
   <div class="container">
     <div class="content">
-      <label for="spacing-input">width: </label>
-      <input type="range" id="spacing-input" name="spacing" min="10" max="500" value="10">
+      <div>
+        <label for="spacing-input">width: </label>
+        <input type="range" id="spacing-input" name="spacing" min="10" max="500" value="10">
+      </div>
 
-      <label for="spacing-input">height: </label>
-      <input type="range" id="height-input" name="height" min="10" max="400" value="10">
+      <div>
+        <label for="spacing-input">height: </label>
+        <input type="range" id="height-input" name="height" min="10" max="400" value="10">
+      </div>
 
-      <label for="blur-input">blur: </label>
-      <input type="range" id="blur-input" name="blur" min="0" max="25" value="2">
+      <div>
+        <label for="blur-input">blur: </label>
+        <input type="range" id="blur-input" name="blur" min="0" max="25" value="2">
+      </div>
 
-      <label for="border-radius-input">border-radius: </label>
-      <input type="range" id="border-radius-input" name="border-radius" min="0" max="150" value="0">
+      <div>
+        <label for="border-radius-input">border-radius: </label>
+        <input type="range" id="border-radius-input" name="border-radius" min="0" max="150" value="0">
+      </div>
 
-      <label for="baseColor-input">base color: </label>
-      <input type="color" id="baseColor-input" name="base-color" value="#ffc600">
+      <div>
+        <label for="baseColor-input">base color: </label>
+        <input type="color" id="baseColor-input" name="base-color" value="#ffc600">
+      </div>
     </div>
-    <div class="effects"></div>
+    <div class="parent">
+      <div class="effects"></div>
+    </div>
   </div>
 
   <script src="./main.js"></script>
